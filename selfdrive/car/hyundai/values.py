@@ -62,7 +62,7 @@ class CAR:
 
 
 # ex) CAR_FORCE_RECOGNITION = CAR.GRANDEUR_IG
-CAR_FORCE_RECOGNITION = None
+CAR_FORCE_RECOGNITION = CAR.K7
 
 class Buttons:
   NONE = 0
@@ -518,7 +518,7 @@ FEATURES = {
   "has_scc13": {CAR.PALISADE, CAR.NIRO_HEV},
   "has_scc14": {CAR.PALISADE, CAR.NIRO_HEV},
 
-  "use_ldws": False,
+  "use_ldws": True,
 }
 
 DBC = {
