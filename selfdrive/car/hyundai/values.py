@@ -64,7 +64,7 @@ class CAR:
   K9 = "KIA K9 2016-2019"
 
 # ex) CAR_FORCE_RECOGNITION = CAR.GRANDEUR_IG
-CAR_FORCE_RECOGNITION = None
+CAR_FORCE_RECOGNITION = CAR.K7
 
 class Buttons:
   NONE = 0
@@ -711,10 +711,10 @@ FEATURES = {
 
   "use_blinker_flash": {CAR.SONATA_LF_TURBO},
 
-  "has_scc13": {CAR.PALISADE, CAR.NIRO_HEV, CAR.K9, CAR.GENESIS_G90},
-  "has_scc14": {CAR.PALISADE, CAR.NIRO_HEV, CAR.K9, CAR.GENESIS_G90},
+  "has_scc13": {CAR.PALISADE, CAR.NIRO_HEV, CAR.K9, CAR.GENESIS_G90, CAR.K7},
+  "has_scc14": {CAR.PALISADE, CAR.NIRO_HEV, CAR.K9, CAR.GENESIS_G90, CAR.K7},
 
-  "use_ldws": False,
+  "use_ldws": True,
 }
 
 DBC = {
